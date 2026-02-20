@@ -1,6 +1,6 @@
 export default function Navbar(){
     return (
-        <nav className="w-full h-20 flex items-center justify-around fixed z-100 top-0 bg-white">
+        <nav className="w-full h-20 flex items-center justify-around fixed z-100 top-0 bg-white shadow-2xs">
             <p className="text-xl font-medium">Techwind</p>
             <ul className="flex justify-around w-1/2">
                 <li className="hover:font-medium hover:text-blue-400"><a href="#">Home</a></li>
