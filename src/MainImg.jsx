@@ -7,7 +7,7 @@ export default function MainImg() {
       style={{ backgroundImage: `url(${mainBg})` }}
     >
         <div className="absolute inset-0 bg-black/40"></div>
-      <div className="relative z-10 w-1/3 h-full flex flex-col justify-center text-white mt-20 ml-40 p-5">
+      <div className="relative z-10 w-full lg:w-1/3 h-full flex flex-col justify-center text-white mt-20 lg:ml-40 p-5">
         <p className="text-6xl font-medium mb-10">New Accessories Collections</p>
         <p className="bg-grey-400 text-xl mb-10">
           Start working with Tailwind CSS that can provide everything you need
