@@ -1,8 +1,8 @@
 export default function MobileApp() {
   return (
-    <div className="flex justify-center gap-10 w-full">
-      <img src="/images/envelope.svg" alt="image" className="h-180 w-1/3"/>
-      <div className="w-1/3 flex flex-col justify-center h-180 gap-5">
+    <div className="flex flex-col lg:flex-row justify-center gap-10 w-full">
+      <img src="/images/envelope.svg" alt="image" className="h-180 w-full lg:w-1/3"/>
+      <div className="w-full lg:w-1/3 flex flex-col lg:justify-center h-180 gap-5">
         <div
           style={{ backgroundColor: "#d4e3fa", color: "blue" }}
           className="w-25 h-5 text-xs text-center rounded"

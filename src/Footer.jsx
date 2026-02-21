@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="bg-slate-900 h-120 text-white p-10">
+    <div className="bg-slate-900 text-white p-10">
       <div className="w-8/10 m-auto flex flex-wrap gap-15">
         <div className="w-1/4">
           <p className="text-4xl mb-5">Techwind</p>
