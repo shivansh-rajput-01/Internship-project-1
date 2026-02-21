@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <div className="bg-slate-900 text-white p-10">
-      <div className="w-8/10 m-auto flex flex-wrap gap-15">
-        <div className="w-1/4">
+      <div className="w-8/10 m-auto flex flex-col lg:flex-row flex-wrap gap-15">
+        <div className="lg:w-1/4">
           <p className="text-4xl mb-5">Techwind</p>
           <p>
             Start working with Tailwind CSS that can provide everything you need
@@ -26,7 +26,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="w-4/10">
+        <div className="lg:w-4/10">
           <p className="text-xl mb-10">Shopping & Clothes</p>
           <div className="flex gap-20">
             <ul>
@@ -55,7 +55,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-1/5">
+        <div className="lg:w-1/5">
             <p className="mb-10">Newsletter</p>
             <p className="mb-5">Sign up and receive the latest tips via email.</p>
             <p className="mb-2">Write your email <span className="text-red-700">*</span></p>
