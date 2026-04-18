@@ -1,16 +1,39 @@
-# React + Vite
+# React Product Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and high-performance landing page built using React and Tailwind CSS. This project focuses on clean user interface design and modular component architecture, showcasing professional frontend development practices.
 
-Currently, two official plugins are available:
+## Project URL
+https://internship-project-1-tau.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **Modern UI Design:** Clean and professional aesthetic designed with Tailwind CSS.
+- **Component-Based Architecture:** Built using reusable React components for scalability and clean code.
+- **Utility-First Styling:** Efficient use of Tailwind CSS for consistent and rapid UI development.
+- **Fast Performance:** Optimized React rendering for a smooth user experience.
 
-## React Compiler
+## Technologies Used
+- **React:** For building the dynamic user interface.
+- **Tailwind CSS:** For professional utility-first styling.
+- **Vercel:** For seamless deployment and hosting.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation and Local Setup
+To run this project on your local machine:
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   `git clone https://github.com/shivansh-rajput-01/internship-project-1.git`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project directory:
+   `cd internship-project-1`
+
+3. Install dependencies:
+   `npm install`
+
+4. Start the development server:
+   `npm run dev`
+
+5. Access in browser:
+   Open http://localhost:5173 to view the application.
+
+## Author
+Developed by Shivansh Rajput  
+GitHub: https://github.com/shivansh-rajput-01
